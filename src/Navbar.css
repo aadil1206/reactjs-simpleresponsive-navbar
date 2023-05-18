@@ -1,0 +1,32 @@
+
+.conto{
+    background-color: rgb(11, 10, 10);
+    display: flex;
+   padding: 20px 30px; 
+   justify-content: space-around;
+   align-items: center;
+   color: beige;
+}
+.l12{
+    color: beige;
+    text-decoration: none;
+}
+.l12:hover{
+    background-color: aquamarine;
+}
+.list1{
+    display: flex;
+    color: beige;
+    list-style: none;
+}
+.a1{
+    margin: 0 25px;
+}
+.a12{
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.a12:hover{
+    background-color: aqua;
+}
