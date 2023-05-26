@@ -30,3 +30,38 @@
 .a12:hover{
     background-color: aqua;
 }
+.active::after:hover{
+    background-color: aqua;
+    text-decoration: overline;
+} 
+.but{
+    margin-left: 150px;
+    
+}
+@media screen and (max-width:900px){
+    .conto{
+        background-color: aquamarine;
+    }
+    .list1{
+       display: flex;
+       flex-direction: column;
+       background-color: red;
+       width: 100%;
+       height: 100%;
+       position: absolute;
+       top: -750px;
+       left:0;
+       align-items: center;
+       justify-content: center;
+
+} 
+.a1{
+    display: inline-block;
+    margin-top: 50px;
+}
+.list1.close{
+    z-index: 2;
+ top: 40px;
+
+}
+}
